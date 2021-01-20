@@ -1,10 +1,10 @@
 # Start 
-In this project, I implemented data collection from the site using **BeautifulSoup** and writing data to the database **NoSQL(MongoDB)** .
+In this project, I implemented data collection from the site using **BeautifulSoup** and save data to the database **NoSQL(MongoDB)** .
 
 # First step
-I wrote a small parser to collect data from the site and wrote the data to a database.File **data_group.py**.
+I wrote a small parser to collect data from the site and save the data to a database.File **data_group.py**.
 # Second step
-Linux operating system. To run the file once a day, I used **crontab**.
+On Linux operating system. To run the file once a day, I used **crontab**.
 ```
 1)sudo crontab -e (choose  text editor that will be convenient for you)
 2)Seting the process  0 13 * * * python3 data_group.py 
