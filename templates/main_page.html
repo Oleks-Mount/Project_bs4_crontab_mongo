@@ -1,0 +1,11 @@
+<!DOCTYPE>
+<link rel=stylesheet type = text/css href="{{url_for('static', filename = 'style.css')}}">
+<html>
+	<head>
+	</head>
+	<body>
+		{% for t in magazine %}
+		<div class = "box"><h2>{{t['post']}}</h2><h2><button type=submit><a href={{t['link']}}>Link into original post</a></button></h2></div>
+		{% endfor %}
+	</body>
+</html>
